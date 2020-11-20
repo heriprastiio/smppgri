@@ -1,0 +1,89 @@
+#container {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+conatainer #header {
+    margin-top: 20px;
+}
+
+
+#container #header {
+    margin-top: 20px;
+}
+
+#container #header #menu {
+    background: #1e5474;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+#container #header #menu #user {
+    float: left;
+}
+
+#container #header #menu #user a {
+    color: #FFFFFF;
+    padding: 12px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container #footer {
+    background: #1e5475;
+    padding: 10px;
+}
+
+#container #content {padding: 10px 0px;overflow: hidden;}
+
+#container #footer p {
+    color: wheat;
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px;
+}
+
+#container-user-acess {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.element-form {
+    margin-bottom: 15px;
+}
+
+.element-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.element-form span {
+    display: block;
+}
+
+.element-form span input[type="text"],
+.element-form span input[type="password"],
+.element-form span textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.element-form input[type="submit"] {
+    background: #1e5474;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+.element-form input[type="submit"]:hover{
+    background: darkgray;
+}
+
